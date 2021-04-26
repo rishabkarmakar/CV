@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <title>Contact Me</title>
+  </head>
+  <body>
+    <h2>MY CONTACT DETAILS</h2>
+    <p><strong>MY ADDRESS:</strong> India,West Bangle,Nadia,Nabadwip,741302 </p>
+    <p><strong>PHONE NO</strong>  : 8906574410</p>
+    <p><strong>MY EMAIL :</strong> karmakarrishab724@gmail.com</p>
+    <p><Strong>DATE OF BIRTH :</Strong>30.04.1999</p>
+    <p><Strong>NATIONALITY :</Strong>Indian</p>
+    <hr />
+    <form
+      action="mailto:karmakarrishab724@gmail.com"
+      method="POST"
+      enctype="text/plain"
+    >
+      <div>
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="myName" />
+      </div>
+      <br />
+      <div>
+        <label for="mail">Your Email:</label>
+        <input type="email" id="mail" name="myEmail" />
+      </div>
+      <br />
+      <div>
+        <label for="add">Your Addreess:</label>
+        <input type="text" id="add" name="myAddress" />
+      </div>
+      <br />
+      <div>
+        Select your Gender:
+        <input type="radio" id="men" name="con" />
+        <label for="men">Male</label>
+        <input type="radio" id="wmen" name="con" />
+        <label for="wmen">Female</label>
+        <input type="radio" id="other" name="con" />
+        <label for="other">Other</label>
+      </div>
+      <div>
+        <br />
+        <div>
+          <label for="dob">Date of birth:</label>
+          <input type="date" name="myDob" id="dob" />
+        </div>
+        <br />
+        <div>
+          <textarea name="textarea" id="tarea" cols="20" rows="7">Write Here...</textarea><br>
+          <label for="tarea">Leave your massage here:</label>
+        </div>
+
+        <div><input type="checkbox" checked /><strong>Age:16+</strong></div>
+       <input type="submit" value="submit Now" />
+        <input type="reset" value="Reset Now" />
+      </div>
+    </form>
+    <center><a href="Personal website.html" target="_parent"><strong>HOME</strong></a></center>
+  </body>
+</html>
